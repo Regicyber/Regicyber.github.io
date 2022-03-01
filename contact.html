@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>About us - BeneVox</title>
+    <title>Contact us - BeneVox</title>
     <meta name="description" content="A blog to keep track of my research and progress as founder of BeneVox">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
@@ -34,13 +34,13 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background: url(&quot;assets/img/about-bg.jpg&quot;);">
+    <header class="masthead" style="background-image:url('assets/img/contact-bg.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>Lost? Don't be</h1><span class="subheading">Why this blog exists</span>
+                        <h1>Contact Me</h1><span class="subheading">Have questions? I have answers.</span>
                     </div>
                 </div>
             </div>
@@ -49,22 +49,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto">
-                <h4>Why this blog exists</h4>
-                <p class="text-start" style="text-align: justify;">I am a writer. For as long as I can remember, I've found it easy, putting my thoughts on paper. Recently, I’ve found that putting them down helps me not just to remember but to think clearly and objectively.<br>I’m sure many can relate. There are just too many things happening around our world, it is becoming harder to focus on the things at the forefront of our realities, our personal problems, we’re too distracted by novelty.<br>To help me and my team stay focused on our goals, I’ve decided to follow Jesus..( just kidding, Jesus was a great guy though, bless his soul). I’ve decided to jot down for transparency and posterity's sake my research, my progress and hurdles as I bring this dream that won't let me sleep to life. Let the world see, how hard can it be.<br></p>
-                <h4>What the blog is about</h4>
-                <p>This blog is about hunger, good food, Africa, innovative solutions to serious problems, critical thinking and BeneVox’s role in connecting all those ideas.<br>I love good food. To eat is one of life’s real pleasures, many don’t have access to that fundamental human right. There are people around the world unable to feed themselves, many of these people are kids, I don’t know what your religion or beliefs are, but I’m pretty sure they’re against starving children.<br>BeneVox was created to tackle these problems, starting with Hunger, starting with Africa.</p>
-                <h4>How long must you wait to read new content</h4>
-                <p>&nbsp;I will publish new blog articles every Sunday with the intent of increasing it to twice weekly. <br>Information pertaining to BeneVox will be published alongside the the Sunday Blog posts.</p>
-                <h4>About the writer&nbsp;</h4>
-                <p>I’m Peter Oqua Eno, My friends Call me Peter or Eno, I’m African, Nigerian, I like and love many things that people do, to give a better picture of myself, I’ll instead list 5 things I hate.</p>
-                <ul>
-                    <li>I hate suffering in any form whatsoever, if the end result is beneficial, there must be another way, if there isn’t, make one.</li>
-                    <li>I hate seeing children on the streets without purpose or direction, that is how societies crumble.</li>
-                    <li>I hate the state the African continent and its people have found themselves in, without history or direction, I’m hopeful for the future however, but things need to change.</li>
-                    <li>I hate how easy it is to hate people and things these day, we need more love in the world, we need more love in our hearts, we need more love for one another.</li>
-                    <li>I hate my inability to do anything meaningful to change the state of things in my life and my country and continent and so I write, hopeful that something good will come from this.<br></li>
-                </ul>
-                <p>Thanks for reading, let's make hunger a thing of the past.&nbsp;</p>
+                <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label" for="name">Name</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><textarea class="form-control" id="message" data-validation-required-message="Please enter a message." required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div id="success"></div>
+                    <div class="mb-3"><button class="btn btn-primary" id="sendMessageButton" type="submit" style="background: #880000;border-radius: 28px;">Send</button></div>
+                </form>
             </div>
         </div>
     </div>
