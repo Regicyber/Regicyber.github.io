@@ -7,15 +7,19 @@
     <title>Home - BeneVox</title>
     <meta name="description" content="A blog to keep track of my research and progress as founder of BeneVox">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
+    <link rel="stylesheet" href="assets/css/Features-Cards-icons.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
     <link rel="stylesheet" href="assets/css/Team-Clean.css">
@@ -26,39 +30,32 @@
         <div class="container-fluid"><a class="navbar-brand" href="blog.html" style="color: #880000;font-family: Lora, serif;background: linear-gradient(black, white), var(--bs-body-font-weight);border-color: #880000;">Hunger, The Blog</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="blog.html" style="color: #880000;">Home</a></li>
+                    <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="about.html" style="color: #880000;">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #880000;">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #880000;">Donate</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html" style="color: #880000;">Benevox</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" id="carousel-1">
-        <div class="carousel-inner">
-            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/Personal Pics/Peter/hostel sky.jpeg" alt="Slide Image"></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/Personal Pics/Peter/whiteboard pic.jpeg" alt="Slide Image"></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/Personal Pics/Peter/Nile University speech.jpeg" alt="Slide Image"></div>
-        </div>
-        <div>
-            <!-- Start: Previous --><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><!-- End: Previous -->
-            <!-- Start: Next --><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a><!-- End: Next -->
-        </div>
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
-        </ol>
-    </div>
+    </nav><!-- Start: Hero Parallax -->
+    <section>
+        <!-- Start: Parallax Background -->
+        <div data-bss-parallax-bg="true" style="height: 600px;background: url(&quot;assets/img/20210922_130906-01.jpeg&quot;) center / cover;">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                        <div style="max-width: 350px;">
+                            <h1 class="text-uppercase fw-bold">The hunger blog</h1>
+                            <p class="my-3">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End: Parallax Background -->
+    </section><!-- End: Hero Parallax -->
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-lg-8">
-                <div class="post-preview"><a href="about.html">
-                        <h2 class="post-title"><strong>I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</strong></h2>
-                        <h3 class="post-subtitle">Why this blog exists.</h3>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Peter on January 2nd, 2022</a></p>
-                </div>
                 <hr>
                 <div class="post-preview"><a href="2Jan2022.html">
                         <h2 class="post-title">Community Supported Agriculture / Meet your Grocer.</h2>
@@ -67,13 +64,43 @@
                     <p class="post-meta">Posted by&nbsp;<a href="#">Peter on 9th January, 2022</a></p>
                 </div>
                 <hr>
-            <div class="post-preview"><a href="17May2022.html">
-                <h2 class="post-title">Economic Analysis of Aquaponics system at ABUAD Farm</h2>
-                <h3 class="post-subtitle">Technologically Advanced agricultural Analysis .</h3>
+                <div class="post-preview"><a href="2Jan2022.html">
+                    <h2 class="post-title">Economic Analysis of Aquaponics system at ABUAD Farm</h2>
+                    <h3 class="post-subtitle">Technologically Advanced agricultural Analysis .</h3>
             </a>
-            <p class="post-meta">Posted by&nbsp;<a href="#">Segun on 17th May, 2022</a></p>
-        </div>
+                <p class="post-meta">Posted by&nbsp;<a href="#">Segun on 17th May, 2022</a></p>
+            </div><hr>
                 <div class="clearfix"><button class="btn btn-primary float-end" type="button">Older Posts&nbsp;⇒</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <!-- Start: Banner Heading -->
+                <section class="py-4 py-xl-5">
+                    <div class="container">
+                        <div class="text-white bg-dark border rounded border-0 p-4 p-md-5">
+                            <h2 class="fw-bold text-center text-white mb-3">Why this blog exists</h2>
+                        </div>
+                    </div>
+                </section><!-- End: Banner Heading -->
+                <p class="text-start" style="text-align: justify;">I am a writer. For as long as I can remember, I've found it easy, putting my thoughts on paper. Recently, I’ve found that putting them down helps me not just to remember but to think clearly and objectively.<br>I’m sure many can relate. There are just too many things happening around our world, it is becoming harder to focus on the things at the forefront of our realities, our personal problems, we’re too distracted by novelty.<br>To help me and my team stay focused on our goals, I’ve decided to follow Jesus..( just kidding, Jesus was a great guy though, bless his soul). I’ve decided to jot down for transparency and posterity's sake my research, my progress and hurdles as I bring this dream that won't let me sleep to life. Let the world see, how hard can it be.<br></p>
+                <h4>What the blog is about</h4>
+                <p>This blog is about hunger, good food, Africa, innovative solutions to serious problems, critical thinking and BeneVox’s role in connecting all those ideas.<br>I love good food. To eat is one of life’s real pleasures, many don’t have access to that fundamental human right. There are people around the world unable to feed themselves, many of these people are kids, I don’t know what your religion or beliefs are, but I’m pretty sure they’re against starving children.<br>BeneVox was created to tackle these problems, starting with Hunger, starting with Africa.</p>
+                <h4>How long must you wait to read new content</h4>
+                <p>&nbsp;I will publish new blog articles every Sunday with the intent of increasing it to twice weekly. <br>Information pertaining to BeneVox will be published alongside the the Sunday Blog posts.</p>
+                <h4>About the writer&nbsp;</h4>
+                <p>I’m Peter Oqua Eno, My friends Call me Peter or Eno, I’m African, Nigerian, I like and love many things that people do, to give a better picture of myself, I’ll instead list 5 things I hate.</p>
+                <ul>
+                    <li>I hate suffering in any form whatsoever, if the end result is beneficial, there must be another way, if there isn’t, make one.</li>
+                    <li>I hate seeing children on the streets without purpose or direction, that is how societies crumble.</li>
+                    <li>I hate the state the African continent and its people have found themselves in, without history or direction, I’m hopeful for the future however, but things need to change.</li>
+                    <li>I hate how easy it is to hate people and things these day, we need more love in the world, we need more love in our hearts, we need more love for one another.</li>
+                    <li>I hate my inability to do anything meaningful to change the state of things in my life and my country and continent and so I write, hopeful that something good will come from this.<br></li>
+                </ul>
+                <p>Thanks for reading, let's make hunger a thing of the past.&nbsp;</p>
+                <div class="text-center my-3"><a class="btn btn-light btn-lg" role="button" href="#" style="background: var(--bs-yellow);">Subscribe</a></div>
             </div>
         </div>
     </div>
@@ -113,6 +140,8 @@
         </footer><!-- End: Footer Dark -->
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/clean-blog.js"></script>
 </body>
 
